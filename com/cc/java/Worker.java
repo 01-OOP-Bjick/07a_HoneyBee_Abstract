@@ -9,6 +9,6 @@ public class Worker extends HoneyBee{
 
     @Override
     public String fly() {
-        return "I just fly to work";
+        return "I just fly to work!";
     }
 }

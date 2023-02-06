@@ -12,11 +12,9 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
-        // Das sollte eigentlich nicht gehen!
-        HoneyBee bee = new HoneyBee();
-        output(bee.doYourJob());
-
-
+        // Honeybee ist abstract das geht nicht mehr!
+        // HoneyBee bee = new HoneyBee();
+        // output(bee.doYourJob());
     }
 
     // 2. Variante Polymorphie
@@ -25,12 +23,7 @@ public class App {
         output(bee.fly());
     }
 
-   
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
-
-
-
 }
-
